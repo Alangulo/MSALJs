@@ -71,7 +71,7 @@ function sign_in() {
             });
             
         } else {
-            console.log("signed in failure");
+            console.log("signed in failure :(");
         }
     }, function (error) {
         console.log("error: " + error);
